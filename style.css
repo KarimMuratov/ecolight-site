@@ -1,0 +1,33 @@
+/* style.css — базовая стилизация */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+h1, h2, h5 {
+  font-weight: 600;
+}
+
+header {
+  background: linear-gradient(to right, #198754, #28a745);
+}
+
+.card-title {
+  color: #198754;
+}
+
+.btn-success {
+  background-color: #198754;
+  border-color: #198754;
+}
+
+.btn-success:hover {
+  background-color: #157347;
+  border-color: #146c43;
+}
+
+footer {
+  font-size: 0.9rem;
+}
